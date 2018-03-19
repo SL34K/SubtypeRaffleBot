@@ -14,3 +14,8 @@ Edit the config.json file to configure the bot.
 
 Run main.py
 
+# Use common sense, any issues shoot me a discord or twitter message.
+
+Twitter: @SL34K
+
+Discord: Sleak#4391
