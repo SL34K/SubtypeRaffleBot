@@ -1,0 +1,17 @@
+{
+    "settings":{
+	"form":"https://www.subtypestore.com/sean/",
+	"catchalldomain":"ukcarts.co.uk",
+        "randomnames":"True",
+        "setname":"SL34K",
+        "signupdelay":"10",
+	"randomsizes":"True",
+	"size":"10",
+	"postcode":"yourpostcode",
+	"phone":"yourphonenumber",
+	"sitekey":"6LemrhEUAAAAAHFkpVUqaN0OggE8gOsUgVZG9U97",
+	"2captchaapikey":"2captchaapikey",
+        "useproxy":"False",
+	"proxy":"ip:port:username:password"
+    }
+}
