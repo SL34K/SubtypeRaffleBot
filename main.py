@@ -77,8 +77,9 @@ def main():
     entries = str(input (now.strftime("%H:%M:%S:%f: How many times do you wish to enter?: ")))
     x = int(x)
     while int(entries) > x:
-        x = run(catchalldomain,randomnames,setname,signupdelay,randomsizes,size,postcode,phone,sitekey,apikey,proxyuse,proxy,form)
-def run(catchalldomain,randomnames,setname,signupdelay,randomsizes,size,postcode,phone,sitekey,apikey,proxyuse,proxy,form):
+        x = run(catchalldomain,randomnames,setname,randomsizes,size,postcode,phone,sitekey,apikey,proxyuse,proxy,form)
+        time.sleep(signupdelay)
+def run(catchalldomain,randomnames,setname,randomsizes,size,postcode,phone,sitekey,apikey,proxyuse,proxy,form):
     if proxyuse == 'True':
         now = datetime.datetime.now()
         print (now.strftime("%H:%M:%S:%f: Proxy use: True"))
